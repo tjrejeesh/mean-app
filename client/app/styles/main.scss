@@ -34,6 +34,9 @@ body {
     line-height: 40px;
     padding-bottom: 19px;
   }
+  .navbar{
+    margin-bottom: 0px;
+  }
 }
 
 /* Custom page footer */
@@ -72,7 +75,10 @@ body {
   .container {
     max-width: 730px;
   }
-
+  .container-center{
+    min-height: 200px;
+    height: !important;
+  }
   /* Remove the padding we set earlier */
   .header,
   .marketing,
